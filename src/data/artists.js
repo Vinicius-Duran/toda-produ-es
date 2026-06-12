@@ -89,7 +89,7 @@ const artists = [
     tag: "Ministração & Adoração",
     accent: "#9c6b3f",
     highlights: ["Ministério MAISB", "+600 mil seguidores"],
-    bio: "A Bispa Luciana Alves é líder religiosa, cantora e influenciadora cristã, reconhecida por seu forte impacto no segmento gospel brasileiro. Ligada ao Ministério MAISB, alcança milhares de pessoas por meio de suas ministrações, louvores e mensagens de fé. Com mais de 600 mil seguidores nas redes sociais, tornou-se uma das vozes de destaque na comunicação cristã digital.",
+    bio: "A Bispa Luciana Alves é líder religiosa, cantora e influenciadora cristã, reconhecida por seu forte impacto no segmento gospel brasileiro. Ligada ao Ministério MAISB, alcança milhares de pessoas por meio de suas ministrações, louvores e mensagens de fé. Com mais de 600 mil seguidores nas redes sociais, tornou-se uma das vozes de destaque na comunicação cristã digital. Seu ministério é marcado por mensagens de encorajamento, adoração e transformação espiritual. Além de sua atuação pastoral, desenvolve projetos musicais que ampliam sua missão de levar esperança e a Palavra de Deus ao público.",
     socials: {
       instagram: "https://www.instagram.com/bispalucianaam/",
       youtube: "https://www.youtube.com/@Luciana8146",
@@ -140,7 +140,7 @@ const artists = [
     tag: "Gospel Contemporâneo",
     accent: "#8a5a9c",
     highlights: ["Propósito", "Ele Te Conhece", "Basta Crer", "Eu Disse a Deus"],
-    bio: "Thaís Helena é cantora e compositora de música cristã contemporânea, destacando-se como uma das vozes mais promissoras da nova geração gospel brasileira. Natural de Aracaju (SE), conquistou projeção nacional ainda na adolescência. Entre seus maiores sucessos estão \"Propósito\", \"Ele Te Conhece\", \"Basta Crer\" e \"Eu Disse a Deus\", canções que acumulam milhões de reproduções.",
+    bio: "Thaís Helena é cantora e compositora de música cristã contemporânea, destacando-se como uma das vozes mais promissoras da nova geração gospel brasileira. Natural de Aracaju (SE), conquistou projeção nacional ainda na adolescência por meio de sua interpretação marcante e letras inspiradoras. Ao longo de sua trajetória, integrou o cast de importantes gravadoras do segmento gospel. Entre seus maiores sucessos estão \"Propósito\", \"Ele Te Conhece\", \"Basta Crer\" e \"Eu Disse a Deus\", canções que acumulam milhões de reproduções e impactam vidas em todo o país. Seu ministério é marcado pela adoração, sensibilidade e mensagens de fé e esperança.",
     socials: {
       youtube: "https://www.youtube.com/channel/UCoL6tFFiDvdcFV2pbGTLehg",
       spotify: "https://open.spotify.com/intl-pt/artist/4CQRgSDOYuQZkcDEXZdOzw",

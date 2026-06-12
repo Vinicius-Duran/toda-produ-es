@@ -10,10 +10,9 @@ export default function Contact() {
           <div className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-gold-500/12 blur-3xl" />
           <div className="relative grid lg:grid-cols-2">
             <div className="p-10 sm:p-14 lg:p-16">
-              <span className="eyebrow">Solicite sua proposta</span>
+              <span className="eyebrow">Orçamento</span>
               <h2 className="mt-6 font-display text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
-                Vamos construir um evento{" "}
-                <span className="gold-text">memorável</span> juntos
+                Solicite sua proposta
               </h2>
               <p className="mt-5 text-cream/70">
                 Fale com a nossa equipe e receba uma proposta personalizada para a

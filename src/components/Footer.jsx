@@ -15,12 +15,11 @@ export default function Footer() {
         <div className="grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3">
-              <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-gold-300 to-gold-600 font-display text-lg font-bold text-ink-950">
-                T
-              </span>
-              <span className="font-display text-lg font-semibold">
-                {site.brandFull}
-              </span>
+              <img
+                src="/TodahProd_Colorido.png"
+                alt={site.brandFull}
+                className="h-11 w-auto"
+              />
             </div>
             <p className="mt-5 max-w-sm text-cream/60">
               Conectando artistas, ministérios e públicos por meio de uma gestão

@@ -36,18 +36,12 @@ export default function Navbar() {
       }`}
     >
       <nav className="container-page flex items-center justify-between gap-6">
-        <a href="#home" className="flex items-center gap-3 group">
-          <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-gold-300 to-gold-600 text-ink-950 font-bold font-display text-lg shadow-lg shadow-gold-600/20">
-            T
-          </span>
-          <span className="leading-tight">
-            <span className="block font-display text-lg font-semibold tracking-tight">
-              Todah
-            </span>
-            <span className="block text-[0.62rem] uppercase tracking-[0.32em] text-muted">
-              Produções Artísticas
-            </span>
-          </span>
+        <a href="#home" className="flex items-center group">
+          <img
+            src="/TodahProd_Branco.png"
+            alt={site.brandFull}
+            className="h-10 w-auto sm:h-11"
+          />
         </a>
 
         <div className="hidden items-center gap-9 lg:flex">

@@ -9,7 +9,7 @@ export default function Experience() {
           <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-gold-500/10 blur-3xl" />
           <div className="relative grid gap-12 lg:grid-cols-2 lg:gap-16">
             <div className="reveal">
-              <span className="eyebrow">Experiência completa</span>
+              <span className="eyebrow">Uma experiência completa</span>
               <h2 className="mt-6 font-display text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
                 Ao contratar pela Todah Produções você conta com:
               </h2>
