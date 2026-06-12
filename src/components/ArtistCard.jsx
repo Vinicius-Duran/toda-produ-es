@@ -1,10 +1,11 @@
-import { getArtistImages } from "../data/artistImages.js";
+import { getArtistCover, getArtistImages } from "../data/artistImages.js";
 import { socialMeta } from "./icons.jsx";
 import ArtistGallery from "./ArtistGallery.jsx";
 
 export default function ArtistCard({ artist, onOpen, style }) {
   const socialKeys = Object.keys(artist.socials);
-  const images = getArtistImages(artist.id);
+  const cover = getArtistCover(artist.id);
+  const gallery = getArtistImages(artist.id);
 
   return (
     <article
@@ -13,7 +14,8 @@ export default function ArtistCard({ artist, onOpen, style }) {
     >
       <div className="relative aspect-[4/5] w-full overflow-hidden">
         <ArtistGallery
-          images={images}
+          cover={cover}
+          gallery={gallery}
           name={artist.name}
           accent={artist.accent}
           variant="card"

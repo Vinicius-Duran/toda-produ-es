@@ -21,7 +21,7 @@ export default function ArtistModal({ artist, onClose }) {
   if (!artist) return null;
 
   const socialKeys = Object.keys(artist.socials);
-  const images = getArtistImages(artist.id);
+  const gallery = getArtistImages(artist.id);
   const message = encodeURIComponent(
     `Olá! Gostaria de uma proposta para contratar ${artist.name} pela Todah Produções Artísticas.`
   );
@@ -50,7 +50,8 @@ export default function ArtistModal({ artist, onClose }) {
 
         <div key={artist.id} className="group relative h-56 w-full overflow-hidden sm:h-72">
           <ArtistGallery
-            images={images}
+            cover={gallery[0] ?? null}
+            gallery={gallery}
             name={artist.name}
             accent={artist.accent}
             variant="modal"

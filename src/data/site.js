@@ -11,6 +11,7 @@ export const site = {
     src: "",
     poster: "",
   },
+  imagesCdnBase: "",
 };
 
 export function whatsappLink() {
