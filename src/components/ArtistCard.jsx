@@ -1,56 +1,37 @@
+import { getArtistImages } from "../data/artistImages.js";
 import { socialMeta } from "./icons.jsx";
-
-function initials(name) {
-  return name
-    .split(" ")
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0])
-    .join("")
-    .toUpperCase();
-}
+import ArtistGallery from "./ArtistGallery.jsx";
 
 export default function ArtistCard({ artist, onOpen, style }) {
   const socialKeys = Object.keys(artist.socials);
+  const images = getArtistImages(artist.id);
 
   return (
     <article
       className="reveal group surface-card relative flex flex-col overflow-hidden"
       style={style}
     >
-      <button
-        type="button"
-        onClick={() => onOpen(artist)}
-        className="relative aspect-[4/5] w-full overflow-hidden text-left"
-        aria-label={`Ver detalhes de ${artist.name}`}
-      >
-        <div
-          className="absolute inset-0 transition-transform duration-700 group-hover:scale-105"
-          style={{
-            background: `radial-gradient(120% 120% at 30% 20%, ${artist.accent}55, transparent 60%), linear-gradient(160deg, #1b1626, #0c0a12)`,
-          }}
+      <div className="relative aspect-[4/5] w-full overflow-hidden">
+        <ArtistGallery
+          images={images}
+          name={artist.name}
+          accent={artist.accent}
+          variant="card"
         />
-        <div
-          className="absolute inset-0 opacity-[0.07]"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, #fff 1px, transparent 1px), linear-gradient(to bottom, #fff 1px, transparent 1px)",
-            backgroundSize: "30px 30px",
-          }}
+
+        <button
+          type="button"
+          onClick={() => onOpen(artist)}
+          className="absolute inset-0 z-10"
+          aria-label={`Ver detalhes de ${artist.name}`}
         />
-        <span
-          className="absolute left-1/2 top-[42%] -translate-x-1/2 -translate-y-1/2 font-display text-7xl font-semibold tracking-tight opacity-90"
-          style={{ color: artist.accent }}
-        >
-          {initials(artist.name)}
-        </span>
-        <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-ink-900 via-ink-900/70 to-transparent" />
-        <span className="absolute left-5 top-5 rounded-full border border-white/15 bg-ink-950/50 px-3 py-1 text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-cream/80 backdrop-blur">
+
+        <span className="pointer-events-none absolute left-5 top-5 z-20 rounded-full border border-white/15 bg-ink-950/50 px-3 py-1 text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-cream/80 backdrop-blur">
           {artist.tag}
         </span>
-      </button>
+      </div>
 
-      <div className="relative -mt-14 flex flex-1 flex-col px-6 pb-6">
+      <div className="relative flex flex-1 flex-col px-6 pb-6 pt-5">
         <h3 className="font-display text-2xl font-semibold leading-tight">
           {artist.name}
         </h3>

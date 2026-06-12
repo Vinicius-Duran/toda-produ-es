@@ -1,22 +1,14 @@
 import { useEffect } from "react";
 import { site } from "../data/site.js";
+import { getArtistImages } from "../data/artistImages.js";
 import { socialMeta, CloseIcon, ArrowIcon, StarIcon } from "./icons.jsx";
-
-function initials(name) {
-  return name
-    .split(" ")
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0])
-    .join("")
-    .toUpperCase();
-}
+import ArtistGallery from "./ArtistGallery.jsx";
 
 export default function ArtistModal({ artist, onClose }) {
   useEffect(() => {
     if (!artist) return;
-    const onKey = (e) => {
-      if (e.key === "Escape") onClose();
+    const onKey = (event) => {
+      if (event.key === "Escape") onClose();
     };
     document.addEventListener("keydown", onKey);
     document.body.style.overflow = "hidden";
@@ -29,6 +21,7 @@ export default function ArtistModal({ artist, onClose }) {
   if (!artist) return null;
 
   const socialKeys = Object.keys(artist.socials);
+  const images = getArtistImages(artist.id);
   const message = encodeURIComponent(
     `Olá! Gostaria de uma proposta para contratar ${artist.name} pela Todah Produções Artísticas.`
   );
@@ -44,30 +37,24 @@ export default function ArtistModal({ artist, onClose }) {
     >
       <div
         className="surface-card relative max-h-[92vh] w-full max-w-3xl overflow-y-auto rounded-b-none rounded-t-3xl sm:rounded-xl2"
-        onClick={(e) => e.stopPropagation()}
+        onClick={(event) => event.stopPropagation()}
       >
         <button
           type="button"
           onClick={onClose}
           aria-label="Fechar"
-          className="absolute right-4 top-4 z-10 grid h-10 w-10 place-items-center rounded-full border border-white/15 bg-ink-950/60 text-cream/80 transition-colors hover:border-gold-500/50 hover:text-gold-300"
+          className="absolute right-4 top-4 z-30 grid h-10 w-10 place-items-center rounded-full border border-white/15 bg-ink-950/60 text-cream/80 transition-colors hover:border-gold-500/50 hover:text-gold-300"
         >
           <CloseIcon className="h-5 w-5" />
         </button>
 
-        <div
-          className="relative h-44 w-full overflow-hidden sm:h-56"
-          style={{
-            background: `radial-gradient(120% 140% at 25% 10%, ${artist.accent}66, transparent 55%), linear-gradient(160deg, #1b1626, #0c0a12)`,
-          }}
-        >
-          <span
-            className="absolute left-8 top-1/2 -translate-y-1/2 font-display text-7xl font-semibold opacity-90 sm:text-8xl"
-            style={{ color: artist.accent }}
-          >
-            {initials(artist.name)}
-          </span>
-          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-ink-800 to-transparent" />
+        <div key={artist.id} className="group relative h-56 w-full overflow-hidden sm:h-72">
+          <ArtistGallery
+            images={images}
+            name={artist.name}
+            accent={artist.accent}
+            variant="modal"
+          />
         </div>
 
         <div className="px-7 pb-8 pt-2 sm:px-10 sm:pb-10">
@@ -86,13 +73,13 @@ export default function ArtistModal({ artist, onClose }) {
                 Destaques
               </h3>
               <div className="mt-3 flex flex-wrap gap-2.5">
-                {artist.highlights.map((h) => (
+                {artist.highlights.map((highlight) => (
                   <span
-                    key={h}
+                    key={highlight}
                     className="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/5 px-3.5 py-1.5 text-sm text-cream/80"
                   >
                     <StarIcon className="h-3.5 w-3.5 text-gold-400" />
-                    {h}
+                    {highlight}
                   </span>
                 ))}
               </div>
