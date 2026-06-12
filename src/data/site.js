@@ -7,8 +7,10 @@ export const site = {
     "Olá! Gostaria de receber uma proposta de contratação de artista pela Todah Produções Artísticas.",
   email: "contato@todahproducoes.com.br",
   instagram: "https://www.instagram.com/",
+  heroVideos: [],
+  heroPoster: "",
   heroVideo: {
-    src: "",
+    src: "/banner-hero.mp4",
     poster: "",
   },
   imagesCdnBase: "",
