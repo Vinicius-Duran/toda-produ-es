@@ -17,9 +17,9 @@ export default function Hero() {
           videos={heroVideos}
           poster={site.heroPoster || site.heroVideo.poster}
         />
-        <div className="absolute inset-0 bg-black/70" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(8,7,12,0.55)_0%,_transparent_68%)]" />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/20 to-black/50" />
+        <div className="absolute inset-0 bg-black/56" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(10,7,7,0.55)_0%,_transparent_58%)]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/5 to-ink-950/30" />
       </div>
 
       <div className="container-page relative z-10 px-6 pb-24 pt-36 text-center lg:pb-32 lg:pt-44">

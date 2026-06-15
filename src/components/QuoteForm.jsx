@@ -39,12 +39,12 @@ export default function QuoteForm() {
   };
 
   const fieldClass =
-    "w-full rounded-2xl border border-white/12 bg-ink-950/40 px-4 py-3.5 text-cream placeholder:text-muted/70 outline-none transition-colors focus:border-gold-500/60 focus:bg-ink-950/70";
+    "w-full rounded-2xl border border-ink-900/15 bg-white px-4 py-3.5 text-ink-900 placeholder:text-ink-700/45 outline-none transition-colors focus:border-gold-500/70 focus:bg-white";
 
   return (
     <form onSubmit={handleSubmit} className="grid gap-4 sm:grid-cols-2">
       <div className="sm:col-span-2">
-        <label className="mb-2 block text-sm text-cream/70">Seu nome</label>
+        <label className="mb-2 block text-sm text-ink-700/80">Seu nome</label>
         <input
           type="text"
           required
@@ -56,7 +56,7 @@ export default function QuoteForm() {
       </div>
 
       <div>
-        <label className="mb-2 block text-sm text-cream/70">Artista de interesse</label>
+        <label className="mb-2 block text-sm text-ink-700/80">Artista de interesse</label>
         <input
           type="text"
           value={form.artist}
@@ -67,10 +67,10 @@ export default function QuoteForm() {
       </div>
 
       <div>
-        <label className="mb-2 block text-sm text-cream/70">Tipo de evento</label>
+        <label className="mb-2 block text-sm text-ink-700/80">Tipo de evento</label>
         <select value={form.type} onChange={update("type")} className={fieldClass}>
           {eventTypes.map((t) => (
-            <option key={t} value={t} className="bg-ink-900">
+            <option key={t} value={t} className="bg-cream text-ink-900">
               {t}
             </option>
           ))}
@@ -78,17 +78,17 @@ export default function QuoteForm() {
       </div>
 
       <div>
-        <label className="mb-2 block text-sm text-cream/70">Data prevista</label>
+        <label className="mb-2 block text-sm text-ink-700/80">Data prevista</label>
         <input type="text" value={form.date} onChange={update("date")} placeholder="Ex.: 12/2026" className={fieldClass} />
       </div>
 
       <div>
-        <label className="mb-2 block text-sm text-cream/70">Cidade / UF</label>
+        <label className="mb-2 block text-sm text-ink-700/80">Cidade / UF</label>
         <input type="text" value={form.city} onChange={update("city")} placeholder="Ex.: São Paulo / SP" className={fieldClass} />
       </div>
 
       <div className="sm:col-span-2">
-        <label className="mb-2 block text-sm text-cream/70">Detalhes do evento</label>
+        <label className="mb-2 block text-sm text-ink-700/80">Detalhes do evento</label>
         <textarea
           rows={3}
           value={form.message}

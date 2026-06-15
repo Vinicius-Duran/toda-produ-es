@@ -5,8 +5,8 @@ export default function Experience() {
   return (
     <section className="py-24 lg:py-28">
       <div className="container-page">
-        <div className="surface-card relative overflow-hidden p-10 sm:p-14 lg:p-16">
-          <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-gold-500/10 blur-3xl" />
+        <div className="surface-light relative overflow-hidden p-10 sm:p-14 lg:p-16">
+          <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full bg-gold-500/12 blur-3xl" />
           <div className="relative grid gap-12 lg:grid-cols-2 lg:gap-16">
             <div className="reveal">
               <span className="eyebrow">Uma experiência completa</span>
@@ -23,12 +23,12 @@ export default function Experience() {
               {experience.map((item) => (
                 <li
                   key={item}
-                  className="flex items-center gap-4 rounded-2xl border border-white/10 bg-ink-900/50 px-5 py-4"
+                  className="flex items-center gap-4 rounded-2xl border border-ink-900/10 bg-ink-900/[0.04] px-5 py-4"
                 >
-                  <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-gold-500/15 text-gold-300">
+                  <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-gold-500/15 text-gold-600">
                     <CheckIcon className="h-4 w-4" />
                   </span>
-                  <span className="text-lg text-cream/85">{item}</span>
+                  <span className="text-lg text-ink-800">{item}</span>
                 </li>
               ))}
             </ul>

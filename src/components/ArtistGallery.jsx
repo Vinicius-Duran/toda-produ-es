@@ -32,7 +32,7 @@ function FallbackArt({ name, accent, variant }) {
       <div
         className="absolute inset-0"
         style={{
-          background: `radial-gradient(120% 120% at 30% 20%, ${accent}55, transparent 60%), linear-gradient(160deg, #1b1626, #0c0a12)`,
+          background: `radial-gradient(120% 120% at 30% 20%, ${accent}55, transparent 60%), linear-gradient(160deg, #231b1a, #100b0b)`,
         }}
       />
       <div

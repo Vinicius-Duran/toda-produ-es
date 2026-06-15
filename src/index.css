@@ -4,12 +4,12 @@
   --font-display: "Fraunces", ui-serif, Georgia, serif;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
 
-  --color-ink-950: #08070c;
-  --color-ink-900: #0c0a12;
-  --color-ink-850: #110e18;
-  --color-ink-800: #16121f;
-  --color-ink-700: #211b2e;
-  --color-ink-600: #2e2740;
+  --color-ink-950: #100b0b;
+  --color-ink-900: #181312;
+  --color-ink-850: #1d1716;
+  --color-ink-800: #231b1a;
+  --color-ink-700: #2d2423;
+  --color-ink-600: #392f2e;
 
   --color-gold-300: #c99897;
   --color-gold-400: #b87a79;
@@ -134,6 +134,17 @@
     background: linear-gradient(160deg, var(--color-ink-800), var(--color-ink-850));
     border: 1px solid color-mix(in oklab, var(--color-cream) 8%, transparent);
     border-radius: var(--radius-xl2);
+  }
+
+  .surface-light {
+    background: var(--color-cream);
+    color: var(--color-ink-900);
+    border: 1px solid color-mix(in oklab, var(--color-ink-900) 8%, transparent);
+    border-radius: var(--radius-xl2);
+  }
+
+  .surface-light .eyebrow {
+    color: var(--color-gold-600);
   }
 
   .reveal {
