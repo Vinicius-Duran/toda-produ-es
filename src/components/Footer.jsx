@@ -16,9 +16,9 @@ export default function Footer() {
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3">
               <img
-                src="/TodahProd_PretoColorido.png"
+                src="/todah-logo-02-preto.png"
                 alt={site.brandFull}
-                className="h-11 w-auto"
+                className="h-12 w-auto"
               />
             </div>
             <p className="mt-5 max-w-sm text-ink-700/75">

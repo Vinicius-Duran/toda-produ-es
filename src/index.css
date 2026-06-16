@@ -11,10 +11,10 @@
   --color-ink-700: #2d2423;
   --color-ink-600: #392f2e;
 
-  --color-gold-300: #c99897;
-  --color-gold-400: #b87a79;
-  --color-gold-500: #955251;
-  --color-gold-600: #6e3d3c;
+  --color-gold-300: #dcdde0;
+  --color-gold-400: #bcbec3;
+  --color-gold-500: #8c9097;
+  --color-gold-600: #5b5f66;
 
   --color-cream: #f4efe7;
   --color-muted: #a59db0;
@@ -43,7 +43,7 @@
 
   ::selection {
     background: var(--color-gold-500);
-    color: var(--color-cream);
+    color: var(--color-ink-900);
   }
 
   ::-webkit-scrollbar {
@@ -109,8 +109,8 @@
   }
 
   .btn-gold {
-    background: linear-gradient(120deg, var(--color-gold-400), var(--color-gold-600));
-    color: var(--color-cream);
+    background: linear-gradient(120deg, var(--color-gold-300), var(--color-gold-500));
+    color: var(--color-ink-900);
     box-shadow: 0 14px 40px -14px color-mix(in oklab, var(--color-gold-500) 70%, transparent);
   }
   .btn-gold:hover {

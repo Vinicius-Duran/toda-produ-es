@@ -13,8 +13,8 @@ export default function Artists() {
           <div className="max-w-2xl">
             <span className="eyebrow">Nosso casting</span>
             <h2 className="mt-6 font-display text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
-              Conheça os artistas da{" "}
-              <span className="gold-text">Todah Produções</span>
+              Conheça os artistas da{" "}<br />
+              <span className="gold-text">Todah Produções Artísticas</span>
             </h2>
           </div>
           <p className="text-cream/60 sm:max-w-xs sm:text-right">

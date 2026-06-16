@@ -7,7 +7,7 @@ export default function Stats() {
       <div className="container-page relative">
         <div className="reveal mx-auto max-w-3xl text-center">
           <p className="font-display text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
-            Dezenas de eventos realizados{" "}
+            Dezenas de eventos realizados{" "}<br />
             <span className="gold-text">todos os anos</span>
           </p>
           <p className="mt-7 text-lg text-cream/70">
