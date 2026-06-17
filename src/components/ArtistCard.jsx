@@ -9,7 +9,7 @@ export default function ArtistCard({ artist, onOpen, style }) {
 
   return (
     <article
-      className="reveal group metal-follow surface-card relative flex flex-col overflow-hidden"
+      className="reveal group metal-sweep surface-card relative flex flex-col overflow-hidden"
       style={style}
     >
       <div className="relative aspect-[4/5] w-full overflow-hidden">

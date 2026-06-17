@@ -105,34 +105,34 @@
     transition: background-position 0.25s ease-out;
   }
 
-  .metal-follow {
+  .metal-sweep {
     position: relative;
     overflow: hidden;
   }
-  .metal-follow::after {
+  .metal-sweep::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: radial-gradient(
-      circle at var(--mx, 50%) var(--my, 50%),
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(255, 255, 255, 0.12) 20%,
-      transparent 46%
+    background: linear-gradient(
+      115deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.55) 50%,
+      transparent 70%
     );
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    transform: translateX(-130%);
+    transition: transform 0.75s ease;
     pointer-events: none;
     z-index: 5;
   }
-  .metal-follow:hover::after {
-    opacity: 1;
+  .metal-sweep:hover::after {
+    transform: translateX(130%);
   }
 
   @media (prefers-reduced-motion: reduce) {
     .gold-text {
       transition: none;
     }
-    .metal-follow::after,
+    .metal-sweep::after,
     .btn-gold::after {
       display: none;
     }
