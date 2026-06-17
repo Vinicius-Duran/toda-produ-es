@@ -18,7 +18,7 @@ export default function Categories() {
               {categories.map((cat, i) => (
                 <article
                   key={cat.title}
-                  className="reveal group relative overflow-hidden rounded-2xl border border-ink-900/10 bg-ink-900/[0.04] p-7 transition-transform duration-500 hover:-translate-y-1.5"
+                  className="reveal group metal-follow relative overflow-hidden rounded-2xl border border-ink-900/10 bg-ink-900/[0.04] p-7 transition-transform duration-500 hover:-translate-y-1.5"
                   style={{ transitionDelay: `${i * 60}ms` }}
                 >
                   <span className="inline-flex items-center rounded-full border border-gold-500/30 bg-gold-500/10 px-3 py-1 text-[0.68rem] font-semibold uppercase tracking-widest text-gold-600">

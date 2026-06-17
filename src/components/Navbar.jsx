@@ -38,7 +38,7 @@ export default function Navbar() {
       <nav className="container-page flex items-center justify-between gap-6">
         <a href="#home" className="flex items-center group">
           <img
-            src="/todah-logo-02-branco.png"
+            src="/todah-logo-02.png"
             alt={site.brandFull}
             className="h-9 w-auto sm:h-10"
           />

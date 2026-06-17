@@ -1,4 +1,5 @@
 import { useReveal } from "./hooks/useReveal.js";
+import { useMetalShine } from "./hooks/useMetalShine.js";
 import { whatsappLink } from "./data/site.js";
 import { WhatsAppIcon } from "./components/icons.jsx";
 import Navbar from "./components/Navbar.jsx";
@@ -15,6 +16,7 @@ import Footer from "./components/Footer.jsx";
 
 export default function App() {
   useReveal();
+  useMetalShine();
 
   return (
     <>

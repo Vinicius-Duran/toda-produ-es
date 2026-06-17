@@ -84,14 +84,58 @@
     content: "";
     width: 1.75rem;
     height: 1px;
-    background: linear-gradient(90deg, transparent, var(--color-gold-500));
+    background: linear-gradient(90deg, transparent, var(--color-gold-500) 60%, var(--color-gold-300));
   }
 
   .gold-text {
-    background: linear-gradient(120deg, var(--color-gold-300), var(--color-gold-500) 55%, var(--color-gold-600));
+    background: linear-gradient(
+      170deg,
+      #f6f7f8 0%,
+      #c4c6ca 24%,
+      #7e8288 46%,
+      #dadce0 60%,
+      #a4a7ad 80%,
+      #d2d4d7 100%
+    );
+    background-size: 220% auto;
+    background-position: var(--gx, 30%) center;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    transition: background-position 0.25s ease-out;
+  }
+
+  .metal-follow {
+    position: relative;
+    overflow: hidden;
+  }
+  .metal-follow::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+      circle at var(--mx, 50%) var(--my, 50%),
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.12) 20%,
+      transparent 46%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 5;
+  }
+  .metal-follow:hover::after {
+    opacity: 1;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .gold-text {
+      transition: none;
+    }
+    .metal-follow::after,
+    .btn-gold::after {
+      display: none;
+    }
   }
 
   .btn {
@@ -109,13 +153,40 @@
   }
 
   .btn-gold {
-    background: linear-gradient(120deg, var(--color-gold-300), var(--color-gold-500));
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(115deg, #eef0f2 0%, #c7c9cd 46%, #9ea2a8 54%, #b8babf 100%);
     color: var(--color-ink-900);
-    box-shadow: 0 14px 40px -14px color-mix(in oklab, var(--color-gold-500) 70%, transparent);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow:
+      0 14px 40px -14px color-mix(in oklab, var(--color-gold-500) 70%, transparent),
+      inset 0 1px 0 rgba(255, 255, 255, 0.75),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.18);
+  }
+  .btn-gold::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      115deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.85) 50%,
+      transparent 70%
+    );
+    transform: translateX(-130%);
+    transition: transform 0.7s ease;
+    pointer-events: none;
+  }
+  .btn-gold:hover::after {
+    transform: translateX(130%);
   }
   .btn-gold:hover {
     transform: translateY(-2px);
-    box-shadow: 0 20px 48px -14px color-mix(in oklab, var(--color-gold-500) 85%, transparent);
+    background: linear-gradient(115deg, #f6f7f8 0%, #d2d4d8 46%, #aaaeb4 54%, #c3c5ca 100%);
+    box-shadow:
+      0 20px 48px -14px color-mix(in oklab, var(--color-gold-500) 85%, transparent),
+      inset 0 1px 0 rgba(255, 255, 255, 0.85),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.18);
   }
 
   .btn-ghost {

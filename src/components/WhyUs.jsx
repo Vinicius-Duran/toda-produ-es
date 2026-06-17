@@ -7,7 +7,7 @@ export default function WhyUs() {
         <div className="reveal mx-auto max-w-3xl text-center">
           <span className="eyebrow justify-center">Por que a Todah</span>
           <h2 className="mt-6 font-display text-3xl font-semibold leading-tight tracking-tight sm:text-5xl">
-            Por que contratar com a{" "}
+            Por que contratar com a{" "}<br />
             <span className="gold-text">Todah Produções Artísticas?</span>
           </h2>
         </div>

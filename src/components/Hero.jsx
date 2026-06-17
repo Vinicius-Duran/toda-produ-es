@@ -23,7 +23,7 @@ export default function Hero() {
       </div>
 
       <div className="container-page relative z-10 px-6 pb-24 pt-36 text-center lg:pb-32 lg:pt-44">
-        <h1 className="reveal mx-auto max-w-4xl font-display text-3xl font-bold uppercase leading-[1.1] tracking-tight text-gold-400 sm:text-5xl lg:text-6xl">
+        <h1 className="gold-text reveal mx-auto max-w-4xl font-display text-3xl font-bold uppercase leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
           Os maiores nomes da música gospel em um só lugar
         </h1>
 
