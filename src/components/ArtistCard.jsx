@@ -6,7 +6,6 @@ export default function ArtistCard({ artist, onOpen, style }) {
   const socialKeys = Object.keys(artist.socials);
   const cover = getArtistCover(artist.id);
   const gallery = getArtistImages(artist.id);
-  const extraPhotos = gallery.length > 1 ? gallery.length - 1 : 0;
 
   return (
     <article
@@ -29,15 +28,10 @@ export default function ArtistCard({ artist, onOpen, style }) {
           aria-label={`Ver detalhes de ${artist.name}`}
         />
 
-        <div className="pointer-events-none absolute inset-x-3 bottom-3 z-20 flex items-center justify-between gap-2">
+        <div className="pointer-events-none absolute inset-x-3 bottom-3 z-20 flex items-center">
           <span className="min-w-0 truncate rounded-full border border-white/15 bg-ink-950/50 px-3 py-1 text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-cream/80 backdrop-blur">
             {artist.tag}
           </span>
-          {extraPhotos > 0 && (
-            <span className="shrink-0 rounded-full border border-white/15 bg-ink-950/60 px-2.5 py-1 text-[0.62rem] font-semibold uppercase tracking-wider text-cream/80 backdrop-blur">
-              +{extraPhotos} fotos
-            </span>
-          )}
         </div>
       </div>
 
