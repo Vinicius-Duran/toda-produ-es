@@ -172,6 +172,42 @@ const artists = [
       spotify: "https://open.spotify.com/intl-pt/artist/0nQgkrgwYvnmvP4UihHaQt",
     },
   },
+  {
+    id: "todah-worship",
+    name: "Todah Worship",
+    tag: "Adoração & Worship",
+    accent: "#6f7f9c",
+    highlights: [],
+    bio: "Artista do casting da Todah Produções Artísticas. Mais informações e materiais oficiais sob consulta com a nossa equipe.",
+    socials: {},
+  },
+  {
+    id: "valesca-mayssa",
+    name: "Valesca Mayssa",
+    tag: "Música Gospel",
+    accent: "#9c5a7a",
+    highlights: [],
+    bio: "Artista do casting da Todah Produções Artísticas. Mais informações e materiais oficiais sob consulta com a nossa equipe.",
+    socials: {},
+  },
+  {
+    id: "kailane-frauches",
+    name: "Kailane Frauches",
+    tag: "Música Gospel",
+    accent: "#5a9c84",
+    highlights: [],
+    bio: "Artista do casting da Todah Produções Artísticas. Mais informações e materiais oficiais sob consulta com a nossa equipe.",
+    socials: {},
+  },
+  {
+    id: "kemilly-santos",
+    name: "Kemilly Santos",
+    tag: "Música Gospel",
+    accent: "#9c7a4f",
+    highlights: [],
+    bio: "Artista do casting da Todah Produções Artísticas. Mais informações e materiais oficiais sob consulta com a nossa equipe.",
+    socials: {},
+  },
 ];
 
 export default artists;

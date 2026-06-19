@@ -21,6 +21,10 @@ const ARTIST_FOLDERS = {
   "thais-helena": "Thais Helena",
   marcados: "Marcados Pagode Gospel",
   "misaias-oliveira": "Misaias Oliveira",
+  "todah-worship": "Todah Worship",
+  "valesca-mayssa": "Valesca Mayssa",
+  "kailane-frauches": "Kailane Frauches",
+  "kemilly-santos": "Kemilly Santos",
 };
 
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".JPG", ".JPEG", ".PNG"]);
