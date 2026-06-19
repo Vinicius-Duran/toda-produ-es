@@ -174,7 +174,6 @@ export default function ArtistGallery({
   const isModal = variant === "modal";
   const images = isModal ? gallery : cover ? [cover] : [];
   const hasImages = images.length > 0;
-  const extraPhotos = !isModal && gallery.length > 1 ? gallery.length - 1 : 0;
 
   useEffect(() => {
     setIndex(0);
@@ -196,12 +195,6 @@ export default function ArtistGallery({
           loading="lazy"
           className="absolute inset-0 h-full w-full object-cover object-top"
         />
-      )}
-
-      {extraPhotos > 0 && (
-        <span className="pointer-events-none absolute bottom-3 right-3 z-20 rounded-full border border-white/15 bg-ink-950/60 px-2.5 py-1 text-[0.62rem] font-semibold uppercase tracking-wider text-cream/80 backdrop-blur">
-          +{extraPhotos} fotos
-        </span>
       )}
 
       <div

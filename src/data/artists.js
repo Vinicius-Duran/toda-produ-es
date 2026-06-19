@@ -178,7 +178,7 @@ const artists = [
     name: "Todah Worship",
     tag: "Adoração & Worship",
     accent: "#6f7f9c",
-    highlights: [],
+    highlights: ["Casa do Oleiro"],
     bio: "Todah Worship é o ministério de louvor da Todah Music, dedicado a conduzir pessoas a uma experiência profunda de adoração através de canções que exaltam a presença e a grandeza de Deus. Com uma identidade marcada pela excelência musical, unção e autenticidade, o grupo tem impactado milhares de vidas por meio de gravações ao vivo e momentos de adoração congregacional. Seu propósito é levar a Palavra de Deus através do louvor, inspirando uma geração a viver uma adoração verdadeira e transformadora.",
     socials: {
       instagram: "https://www.instagram.com/todahworshipoficial/",
