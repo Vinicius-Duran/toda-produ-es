@@ -71,7 +71,6 @@ export const artistImages = {
     "/optimized/thiago-brito/04.webp",
     "/optimized/thiago-brito/05.webp",
     "/optimized/thiago-brito/06.webp",
-    "/optimized/thiago-brito/07.webp",
   ],
   "samuel-tayrone": [
     "/optimized/samuel-tayrone/01.webp",
@@ -82,8 +81,13 @@ export const artistImages = {
     "/optimized/samuel-tayrone/06.webp",
     "/optimized/samuel-tayrone/07.webp",
   ],
-  "cicero-oliveira": [],
-  "thais-helena": [],
+  "cicero-oliveira": [
+    "/optimized/cicero-oliveira/01.webp",
+  ],
+  "thais-helena": [
+    "/optimized/thais-helena/01.webp",
+    "/optimized/thais-helena/02.webp",
+  ],
   "marcados": [
     "/optimized/marcados/01.webp",
     "/optimized/marcados/02.webp",
@@ -125,22 +129,6 @@ export const artistImages = {
     "/optimized/todah-worship/17.webp",
     "/optimized/todah-worship/18.webp",
     "/optimized/todah-worship/19.webp",
-    "/optimized/todah-worship/20.webp",
-    "/optimized/todah-worship/21.webp",
-    "/optimized/todah-worship/22.webp",
-    "/optimized/todah-worship/23.webp",
-    "/optimized/todah-worship/24.webp",
-    "/optimized/todah-worship/25.webp",
-    "/optimized/todah-worship/26.webp",
-    "/optimized/todah-worship/27.webp",
-    "/optimized/todah-worship/28.webp",
-    "/optimized/todah-worship/29.webp",
-    "/optimized/todah-worship/30.webp",
-    "/optimized/todah-worship/31.webp",
-    "/optimized/todah-worship/32.webp",
-    "/optimized/todah-worship/33.webp",
-    "/optimized/todah-worship/34.webp",
-    "/optimized/todah-worship/35.webp",
   ],
   "valesca-mayssa": [
     "/optimized/valesca-mayssa/01.webp",
@@ -170,6 +158,12 @@ export const artistImages = {
     "/optimized/kemilly-santos/05.webp",
     "/optimized/kemilly-santos/06.webp",
     "/optimized/kemilly-santos/07.webp",
+  ],
+  "stella-laura": [
+    "/optimized/stella-laura/01.webp",
+  ],
+  "kellen-byanca": [
+    "/optimized/kellen-byanca/01.webp",
   ],
 };
 

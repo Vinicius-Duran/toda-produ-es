@@ -17,7 +17,7 @@ const ARTIST_FOLDERS = {
   "bispa-luciana": "Bispa Luciana",
   "thiago-brito": "Thiago Brito",
   "samuel-tayrone": "Samuel Tayrone",
-  "cicero-oliveira": "Cícero Oliveira",
+  "cicero-oliveira": "Cicero Oliveira",
   "thais-helena": "Thais Helena",
   marcados: "Marcados Pagode Gospel",
   "misaias-oliveira": "Misaias Oliveira",
@@ -25,6 +25,8 @@ const ARTIST_FOLDERS = {
   "valesca-mayssa": "Valesca Mayssa",
   "kailane-frauches": "Kailane Frauches",
   "kemilly-santos": "Kemilly Santos",
+  "stella-laura": "Stella Laura",
+  "kellen-byanca": "Kellen Byanca",
 };
 
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".JPG", ".JPEG", ".PNG"]);
