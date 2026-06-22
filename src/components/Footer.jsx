@@ -48,7 +48,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="lg:col-span-3">
+          <div className="flex flex-col lg:col-span-3 lg:h-full">
             <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-ink-700/65">
               Contato
             </h3>
@@ -64,6 +64,23 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
+
+            <div className="mt-8 flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-ink-700/45 lg:mt-auto lg:pt-8">
+              <span>Desenvolvido por</span>
+              <a
+                href="https://vduran.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Site do desenvolvedor"
+                className="transition-opacity hover:opacity-70"
+              >
+                <img
+                  src="/logo_vd_preto.svg"
+                  alt="Logo do desenvolvedor do site"
+                  className="h-6 w-auto"
+                />
+              </a>
+            </div>
           </div>
         </div>
 
