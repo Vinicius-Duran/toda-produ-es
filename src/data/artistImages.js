@@ -27,6 +27,7 @@ export const artistImages = {
     "/optimized/polyana-martins/05.webp",
     "/optimized/polyana-martins/06.webp",
     "/optimized/polyana-martins/07.webp",
+    "/optimized/polyana-martins/08.webp",
   ],
   "abraao-alencar": [
     "/optimized/abraao-alencar/01.webp",
@@ -83,6 +84,7 @@ export const artistImages = {
   ],
   "cicero-oliveira": [
     "/optimized/cicero-oliveira/01.webp",
+    "/optimized/cicero-oliveira/02.webp",
   ],
   "thais-helena": [
     "/optimized/thais-helena/01.webp",
@@ -171,6 +173,73 @@ export const artistImages = {
   ],
   "kellen-byanca": [
     "/optimized/kellen-byanca/01.webp",
+  ],
+  "andreza-tavares": [
+    "/optimized/andreza-tavares/01.webp",
+  ],
+  "arnaldo-quaresma": [
+    "/optimized/arnaldo-quaresma/01.webp",
+    "/optimized/arnaldo-quaresma/02.webp",
+  ],
+  "augusto-carvalho": [
+    "/optimized/augusto-carvalho/01.webp",
+    "/optimized/augusto-carvalho/02.webp",
+  ],
+  "felipe-costa": [
+    "/optimized/felipe-costa/01.webp",
+    "/optimized/felipe-costa/02.webp",
+  ],
+  "gabrielli-sousa": [
+    "/optimized/gabrielli-sousa/01.webp",
+    "/optimized/gabrielli-sousa/02.webp",
+  ],
+  "juju-andrade": [
+    "/optimized/juju-andrade/01.webp",
+    "/optimized/juju-andrade/02.webp",
+  ],
+  "kiara-vitoria": [
+    "/optimized/kiara-vitoria/01.webp",
+    "/optimized/kiara-vitoria/02.webp",
+  ],
+  "monique-santana": [
+    "/optimized/monique-santana/01.webp",
+    "/optimized/monique-santana/02.webp",
+  ],
+  "paulo-sergio": [
+    "/optimized/paulo-sergio/01.webp",
+    "/optimized/paulo-sergio/02.webp",
+  ],
+  "raquel-olliver": [
+    "/optimized/raquel-olliver/01.webp",
+    "/optimized/raquel-olliver/02.webp",
+  ],
+  "robert-lucas": [
+    "/optimized/robert-lucas/01.webp",
+  ],
+  "sara-rodrigues": [
+    "/optimized/sara-rodrigues/01.webp",
+    "/optimized/sara-rodrigues/02.webp",
+  ],
+  "suellen-brum": [
+    "/optimized/suellen-brum/01.webp",
+    "/optimized/suellen-brum/02.webp",
+  ],
+  "yasmin-yanni": [
+    "/optimized/yasmin-yanni/01.webp",
+    "/optimized/yasmin-yanni/02.webp",
+  ],
+  "jamile-dias": [
+    "/optimized/jamile-dias/01.webp",
+    "/optimized/jamile-dias/02.webp",
+  ],
+  "suillan-barreto": [
+    "/optimized/suillan-barreto/01.webp",
+  ],
+  "rafaela-araujo": [
+    "/optimized/rafaela-araujo/01.webp",
+  ],
+  "fogo-e-gloria": [
+    "/optimized/fogo-e-gloria/01.webp",
   ],
 };
 
