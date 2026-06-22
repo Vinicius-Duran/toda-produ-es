@@ -25,7 +25,8 @@ export default function ArtistModal({ artist, onClose }) {
   const message = encodeURIComponent(
     `Olá! Gostaria de uma proposta para contratar ${artist.name} pela Todah Produções Artísticas.`
   );
-  const link = `https://wa.me/${site.whatsapp}?text=${message}`;
+  const whatsappNumber = artist.whatsapp ?? site.whatsapp;
+  const link = `https://wa.me/${whatsappNumber}?text=${message}`;
 
   return (
     <div

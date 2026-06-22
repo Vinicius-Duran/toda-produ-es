@@ -3,6 +3,7 @@ export const site = {
   brandFull: "Todah Produções Artísticas",
   group: "Todah Group",
   whatsapp: "5511959372951",
+  whatsappPrefeituras: "5511994469433",
   whatsappMessage:
     "Olá! Gostaria de receber uma proposta de contratação de artista pela Todah Produções Artísticas.",
   email: "contato@todahproducoes.com.br",
@@ -16,9 +17,9 @@ export const site = {
   imagesCdnBase: "",
 };
 
-export function whatsappLink() {
+export function whatsappLink(number = site.whatsapp) {
   const text = encodeURIComponent(site.whatsappMessage);
-  return `https://wa.me/${site.whatsapp}?text=${text}`;
+  return `https://wa.me/${number}?text=${text}`;
 }
 
 export const categories = [

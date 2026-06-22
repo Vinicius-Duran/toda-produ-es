@@ -161,6 +161,13 @@ export const artistImages = {
   ],
   "stella-laura": [
     "/optimized/stella-laura/01.webp",
+    "/optimized/stella-laura/02.webp",
+    "/optimized/stella-laura/03.webp",
+    "/optimized/stella-laura/04.webp",
+    "/optimized/stella-laura/05.webp",
+    "/optimized/stella-laura/06.webp",
+    "/optimized/stella-laura/07.webp",
+    "/optimized/stella-laura/08.webp",
   ],
   "kellen-byanca": [
     "/optimized/kellen-byanca/01.webp",

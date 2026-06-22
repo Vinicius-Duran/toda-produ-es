@@ -6,6 +6,7 @@ const artists = [
     accent: "#c9962f",
     highlights: ["Geração Disponível", "Tua Graça me Basta", "Deus Vai Me Sustentar"],
     bio: "Cantora gospel ligada ao casting da Todah Music, com lançamentos como \"Geração Disponível\", \"Tua Graça me Basta\" e \"Deus Vai Me Sustentar\". Sua voz se destaca em canções de adoração e louvor congregacional.",
+    whatsapp: "5511913536892",
     socials: {
       instagram: "https://www.instagram.com/estherfiaux/",
       tiktok: "https://www.youtube.com/channel/UCB6MX_m9gc74hoelFwP43nA",
@@ -76,6 +77,7 @@ const artists = [
     accent: "#c25b6a",
     highlights: ["Pentecostal Até o Tutano", "Vem Senhor", "É Pra Marchar"],
     bio: "Cantora gospel contratada pela Todah Music, ganhou destaque com o projeto \"Pentecostal Até o Tutano\" e músicas como \"Vem Senhor\" e \"É Pra Marchar\". Sua força está na linguagem jovem, pentecostal e popular.",
+    whatsapp: "5511978759788",
     socials: {
       instagram: "https://www.instagram.com/saraevelyn/",
       tiktok: "https://www.tiktok.com/discover/sara-evelyn-",
@@ -115,6 +117,7 @@ const artists = [
     accent: "#5a7f9c",
     highlights: ["Deus sem Limites", "Não É Sobre Você", "Não Conseguirei Sozinho"],
     bio: "Cantor gospel com lançamentos pela Todah, incluindo \"Deus sem Limites\", \"Não É Sobre Você\" e \"Não Conseguirei Sozinho\". Sua mensagem é voltada à fé, dependência de Deus e superação.",
+    whatsapp: "5511945646990",
     socials: {
       instagram: "https://www.instagram.com/samueltayroneof/",
       youtube: "https://www.youtube.com/channel/UC07gqnjrrAd7fbIx1FKRP5w",

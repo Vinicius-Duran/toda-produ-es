@@ -35,6 +35,20 @@ export default function Contact() {
                   </span>
                 </a>
                 <a
+                  href={whatsappLink(site.whatsappPrefeituras)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-4 rounded-2xl border border-ink-900/10 bg-ink-900/[0.04] px-5 py-4 transition-colors hover:border-gold-500/50"
+                >
+                  <span className="grid h-11 w-11 place-items-center rounded-full bg-gold-500/15 text-gold-600">
+                    <WhatsAppIcon className="h-5 w-5" />
+                  </span>
+                  <span>
+                    <span className="block text-sm text-ink-700/60">Contato exclusivo para Prefeituras</span>
+                    <span className="font-medium">11 99446-9433</span>
+                  </span>
+                </a>
+                <a
                   href={`mailto:${site.email}`}
                   className="flex items-center gap-4 rounded-2xl border border-ink-900/10 bg-ink-900/[0.04] px-5 py-4 transition-colors hover:border-gold-500/50"
                 >
