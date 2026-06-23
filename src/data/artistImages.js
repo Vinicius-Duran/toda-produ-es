@@ -197,10 +197,6 @@ export const artistImages = {
     "/optimized/juju-andrade/01.webp",
     "/optimized/juju-andrade/02.webp",
   ],
-  "kiara-vitoria": [
-    "/optimized/kiara-vitoria/01.webp",
-    "/optimized/kiara-vitoria/02.webp",
-  ],
   "monique-santana": [
     "/optimized/monique-santana/01.webp",
     "/optimized/monique-santana/02.webp",

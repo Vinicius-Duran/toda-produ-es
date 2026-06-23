@@ -33,7 +33,6 @@ const ARTIST_FOLDERS = {
   "felipe-costa": "Felipe Costa",
   "gabrielli-sousa": "Gabrielli Sousa",
   "juju-andrade": "Juju Andrade",
-  "kiara-vitoria": "Kiara Vitória",
   "monique-santana": "Monique Santana",
   "paulo-sergio": "Paulo Sérgio",
   "raquel-olliver": "Raquel Olliver",

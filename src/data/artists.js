@@ -283,7 +283,7 @@ const artists = [
     tag: "Gospel Contemporâneo",
     accent: "#8c7a3f",
     highlights: ["Grandioso Deus", "Jesus Está na Casa", "100% Deus"],
-    bio: "Nascido em João Pessoa, Paraíba, ele ganhou destaque nacional ao assinar com a gravadora Todah Music, emplacando sucessos como \"Grandioso Deus\", \"Jesus Está na Casa\" e \"100% Deus\".",
+    bio: "Cantor brasileiro de música gospel que ganhou destaque nacional ainda na infância ao se apresentar em grandes eventos, como o festival Arraiana, ao lado de cantores como Luciano Camargo. Natural de Goiânia, começou a se destacar no segmento gospel mirim antes de integrar a gravadora Todah Music. Ganhou visibilidade ao cantar a música \"Deserto\", emplacando sucessos como \"Grandioso Deus\", \"Jesus Está na Casa\" e \"100% Deus\".",
     socials: {
       instagram: "https://www.instagram.com/augustocarvalho.ofc/",
       youtube: "https://www.youtube.com/@augustocarvalhooficial",
@@ -325,18 +325,6 @@ const artists = [
       instagram: "https://www.instagram.com/jujuandrade.ofc/",
       youtube: "https://www.youtube.com/@jujuAndradejuju",
       spotify: "https://open.spotify.com/intl-pt/artist/4xPUYXSWFPeH8IxeIVHw3l",
-    },
-  },
-  {
-    id: "kiara-vitoria",
-    name: "Kiara Vitória",
-    tag: "Nova Geração & Adoração",
-    accent: "#5aa0a0",
-    highlights: ["Árvore Cortada", "Despreocupa", "De Joelhos"],
-    bio: "Nascida em julho de 2009 em Caucaia, Ceará, é filha do cantor Joscilano Saraiva e de Gleicy. Considerada um milagre desde o ventre, começou a cantar aos 2 anos e ganhou projeção nacional como parte do elenco da gravadora Todah Music. Possui milhões de execuções nas plataformas digitais. Entre suas canções mais conhecidas destacam-se \"Árvore Cortada\", \"Despreocupa\" e \"De Joelhos\" (esta última com participação de Kellen Byanca).",
-    socials: {
-      instagram: "https://www.instagram.com/kiaravitoria/",
-      youtube: "https://www.youtube.com/channel/UCEZVJyC3xFkPOy6eY_BFnHg",
     },
   },
   {
