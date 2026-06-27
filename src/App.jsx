@@ -39,7 +39,7 @@ export default function App() {
         target="_blank"
         rel="noreferrer"
         aria-label="Falar no WhatsApp"
-        className="fixed bottom-6 right-6 z-50 grid h-14 w-14 place-items-center rounded-full bg-gradient-to-br from-gold-300 to-gold-500 text-ink-900 shadow-xl shadow-gold-600/30 transition-transform duration-300 hover:scale-110"
+        className={`fixed bottom-6 right-6 z-[90] grid h-14 w-14 place-items-center rounded-full bg-gradient-to-br from-gold-300 to-gold-500 text-ink-900 shadow-xl shadow-gold-600/30 transition-transform duration-300 hover:scale-110`}
       >
         <WhatsAppIcon className="h-7 w-7" />
       </a>

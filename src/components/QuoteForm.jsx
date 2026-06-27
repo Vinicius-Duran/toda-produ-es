@@ -39,10 +39,10 @@ export default function QuoteForm() {
   };
 
   const fieldClass =
-    "w-full rounded-2xl border border-ink-900/15 bg-white px-4 py-3.5 text-ink-900 placeholder:text-ink-700/45 outline-none transition-colors focus:border-gold-500/70 focus:bg-white";
+    "box-border w-full min-w-0 rounded-2xl border border-ink-900/15 bg-white px-4 py-3.5 text-base text-ink-900 placeholder:text-ink-700/45 outline-none transition-colors focus:border-gold-500/70 focus:bg-white";
 
   return (
-    <form onSubmit={handleSubmit} className="grid gap-4 sm:grid-cols-2">
+    <form onSubmit={handleSubmit} className="grid min-w-0 gap-4 sm:grid-cols-2">
       <div className="sm:col-span-2">
         <label className="mb-2 block text-sm text-ink-700/80">Seu nome</label>
         <input
@@ -98,7 +98,7 @@ export default function QuoteForm() {
         />
       </div>
 
-      <button type="submit" className="btn btn-gold sm:col-span-2">
+      <button type="submit" className="btn btn-gold w-full sm:col-span-2">
         <WhatsAppIcon className="h-5 w-5" />
         Quero receber uma proposta
         <ArrowIcon className="h-4 w-4" />
