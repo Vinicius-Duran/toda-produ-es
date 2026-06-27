@@ -1,10 +1,12 @@
 import { useState } from "react";
 import artists from "../data/artists.js";
+import { getOrderedArtists } from "../data/artistOrder.js";
 import ArtistCard from "./ArtistCard.jsx";
 import ArtistModal from "./ArtistModal.jsx";
 
 export default function Artists() {
   const [selected, setSelected] = useState(null);
+  const orderedArtists = getOrderedArtists(artists);
 
   return (
     <section id="artistas" className="py-24 lg:py-32">
@@ -18,13 +20,13 @@ export default function Artists() {
             </h2>
           </div>
           <p className="text-cream/60 sm:max-w-xs sm:text-right">
-            {artists.length} artistas disponíveis para o seu evento. Clique para
+            {orderedArtists.length} artistas disponíveis para o seu evento. Clique para
             ver detalhes e canais oficiais.
           </p>
         </div>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {artists.map((artist, i) => (
+          {orderedArtists.map((artist, i) => (
             <ArtistCard
               key={artist.id}
               artist={artist}
