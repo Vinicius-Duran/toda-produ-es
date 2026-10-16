@@ -2,7 +2,7 @@ export const site = {
   brand: "Todah Produções",
   brandFull: "Todah Produções Artísticas",
   group: "Todah Group",
-  whatsapp: "5511959372951",
+  whatsapp: "5511913743503",
   whatsappPrefeituras: "5511994469433",
   whatsappMessage:
     "Olá! Gostaria de receber uma proposta de contratação de artista pela Todah Produções Artísticas.",
